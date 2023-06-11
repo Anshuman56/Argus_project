@@ -1,0 +1,28 @@
+.main-section{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    margin-top: .3rem;
+}
+
+/* balck panel section */
+.blackPanel-section{
+    display: flex;
+    width: 98%;
+    gap:1rem;
+}
+
+/* news card section */
+.card-section{
+    width: 98%;
+    border-top: 5px solid #f8f8f8;
+}
+ @media (max-width: 991px){
+    .main-section{
+        margin: 1rem;
+        width: 100%;
+    }
+ }

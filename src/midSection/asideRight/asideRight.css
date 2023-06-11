@@ -1,0 +1,10 @@
+.right-aside{
+    border: 4px solid #f6f6f6;
+    
+}
+@media (max-width: 991px)
+{
+    .right-aside{
+        display: none;
+    }
+}

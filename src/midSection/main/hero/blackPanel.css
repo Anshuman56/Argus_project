@@ -1,0 +1,24 @@
+.blackPanel-container{
+    width: 48%;
+    
+}
+.blackPanel-image-container{
+    width: 99.5%;
+    height:  168px;
+    border: 1px solid green;
+    border-radius: 5px 5px 0 0;
+}
+.blackPanel-news-container{
+    background: #333333;
+    padding: 1rem 0 3rem 1rem;
+    color: #f4f4f4;
+    border-radius: 0 0 5px 5px;
+}
+.blackPanel-news-container h3{
+    font-size: .7rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.blackPanel-news-container h2{
+    font-size: 1.1rem;
+}

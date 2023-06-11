@@ -1,0 +1,76 @@
+.contenar{
+    display: flex;
+    border-top: 5px solid red;
+    border-bottom: 2px solid #f7f7f7;
+    text-transform: uppercase;
+    justify-content: center;
+    height: 30px;
+    min-width: 1024px;
+    }
+    /* date and time */
+    .date-time{
+        font-size: .8rem;
+        margin-right: 17rem;
+        display: flex;
+        align-items: center;
+    }
+    .wether{
+        margin-top: -.5rem;
+    }
+    /* app-buttons */
+    .app-button{
+        display: flex;
+        font-size: .8rem;
+        align-items: center;
+    }
+    /* buttons */
+    .app{
+        margin-top: -.2rem;
+        background: black;
+        border: none;
+        padding-top: .2rem;
+    }
+    .first{
+        margin-left: .5rem;
+        border-radius: 5px 0 0 5px;
+    }
+    .second{
+        border-radius: 0 5px 5px 0;
+    }
+    .image{
+        width: .7rem;
+        height: .7rem;
+    }
+    .liveTv{
+        background: linear-gradient(#d81e22, #b51f22);
+        color: #fff;
+        border-radius: 5px;
+        margin-left: 1.5rem;
+        padding: .2rem 1rem;
+        font-family: 'Libre Franklin', sans-serif;
+    }
+/* social Media */
+.social-media{
+    margin-left: 3rem;
+    display: flex;
+    gap: 1rem;
+    font-size: .8rem;
+    align-items: center;
+}
+.icon{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+/* media for top header */
+@media (max-width: 991px)
+{
+   
+    
+    .contenar{
+        display: none;
+    }
+    
+}
+
+/* media for top header */

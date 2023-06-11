@@ -1,0 +1,4 @@
+.weather-contaner{
+    display: flex;
+    gap: .8rem
+}

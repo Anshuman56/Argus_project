@@ -1,0 +1,30 @@
+.search_bar_contaner{
+    width: 100%; 
+    text-align: center;
+    background: #f7f7f7;
+    padding:  .5rem 0 ;
+    
+    
+}
+.input-search-field{
+    width: 30rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+    padding-left: 2rem;
+    font-weight: 700;
+}
+.search-bar-close-icon{
+    width: 10px;
+    height: 10px;
+}
+.search-bar-close-button{
+    margin-left: 1rem;
+    border: none;
+    background: #f7f7f7 ;
+}
+.search-bar-close-button:hover{
+    cursor: pointer;
+}
+

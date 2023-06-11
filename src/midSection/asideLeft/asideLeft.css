@@ -1,0 +1,48 @@
+.aside-contener{
+    width: 26%;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    
+}
+.leftAside{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 550px;
+    border-right: 5px solid #f7f7f7 ;
+    gap: .5rem;
+    
+}
+/* Links */
+.aside-left-links{
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside-left-links p{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: .2rem;
+}
+.left-heading{
+    font-size: .9rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+@media (max-width: 991px)
+{
+    .aside-contener{
+        display: none;
+    }
+}

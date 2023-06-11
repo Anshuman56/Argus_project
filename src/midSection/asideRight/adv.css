@@ -1,0 +1,107 @@
+.adv{
+    width: 290px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+/* social media buttons */
+
+.social-media-connection{
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+}
+.social-media-button-contener{
+    display: flex;
+    gap: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+ .fb {
+    background: #1877f2;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: .7rem;
+    font-weight: 600;
+    height: 20px;
+    padding: 0 .7rem;
+ }
+ .tweet{
+    background: #1d9bf0;
+    border: none;
+    height: 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: .7rem;
+    font-weight: 600;
+    padding: 0 .7rem;
+ }
+ .youtube{
+    background:#e62117;
+    border: none;
+    height: 20px;
+    border-radius: 2px;
+    color: white;
+    font-size: .7rem;
+    font-weight: 600;
+    padding: 0 .7rem;
+ }
+.social-media-buttons-icons{
+    width: 1rem;
+    height: 1rem;
+    margin-right: .3rem;
+    
+}
+
+/* news letter Subscription */
+ 
+.newsletter-contenar{
+    width: 95%;
+    background-color: #333333;
+    border-radius: 5px;
+    border-top: 5px solid #e21e22;
+    padding-left: .5rem;
+}
+
+.newsletter-heading{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    line-height: 1.7rem;
+    letter-spacing: .1rem;
+    
+}
+.newsletter-contener-form{
+    
+    display: flex;
+}
+.newsletter-input-field{
+    width: 70%;
+    padding: .4rem .6rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1.5rem;
+    
+}
+.newsletter-button{
+    margin: 0 .6rem;
+    border: none;
+    border-radius: 3px;
+    height: 28px;
+}
+.newsletter-button-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+
+
+}
+
+@media (max-width: 991px)
+{
+    
+}

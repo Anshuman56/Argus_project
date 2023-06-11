@@ -1,0 +1,72 @@
+.headerButtom{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #f7f7f7;
+   
+   
+}
+/* Logo */
+.logo{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+/* nav */
+ .menu ul{
+    display: flex;
+    gap: 1.4rem;
+    margin-left: 6rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    
+ }
+ /* language */
+ .language{
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 2rem;
+    gap: 1rem;
+    font-size: .8rem;
+ }
+ /* search button */
+   .search{
+    width: 1em;
+    height: 1em;
+ }
+ .search:hover{
+   cursor: pointer;
+ }
+ /* sign in */
+ .signIn{
+   margin-left: 1em;
+   width: 14%;
+   height: 37px;
+   background: linear-gradient(#dd1d21, #d01b1e );
+   border: none;
+   border-radius: 5px;
+   color: white;
+   font-size: 1.1rem;
+   font-family: 'Libre Franklin', sans-serif;
+   font-weight: 600;
+ }
+ .signIn:hover{
+   cursor: pointer;
+ }
+@media (max-width: 991px)
+{
+   .signIn{
+      display: none;
+   }
+   .language{
+      display: none;
+   }
+   .search{
+      display: none;
+   }
+   .menu ul{
+      margin-left: 1rem;
+   }
+   
+}

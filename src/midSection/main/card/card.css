@@ -1,0 +1,22 @@
+.card-container{
+    width: 100%;
+    border-bottom: 2px solid #f8f8f8 ;
+    display: flex;
+}
+
+.card-imgage-container{
+    width: 25%;
+    height: 82px;
+    border: 1px solid green;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.card-news-container h3{
+    font-size: .7rem;
+    margin-bottom: 1rem;
+    margin-top: 1.3rem;
+    text-transform: uppercase;
+}
+.card-news-container h2{
+    font-size: 1.1rem;
+}
